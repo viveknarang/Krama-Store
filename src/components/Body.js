@@ -1,5 +1,12 @@
 import React from 'react';
-import './Body.css'
+import Product from './Product'
+import './Body.css';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 class Body extends React.Component {
 
@@ -10,23 +17,17 @@ class Body extends React.Component {
     return (
           <React.Fragment>
             <div className="body-x z-depth-3">
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
+
+                <Router>
+
+                  <Switch>
+                    <Route path={`/product/:productID`}>
+                      <Product/>
+                    </Route>
+                  </Switch>
+
+                </Router>
+
             </div>
           </React.Fragment>
     );
