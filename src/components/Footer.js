@@ -8,7 +8,7 @@ class Footer extends React.Component {
   render() {
     return (
           <React.Fragment>
-              <footer class="page-footer pink darken-3">
+              <footer class="page-footer purple darken-1 z-depth-3">
                 <div class="container">
                   <div class="row">
                     <div class="col l6 s12">

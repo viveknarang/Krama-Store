@@ -10,9 +10,9 @@ class Header extends React.Component {
     return (
           <React.Fragment>
 
-              <div className="header">
+              <div className="header z-depth-3">
 
-                        
+
 
               </div>
 
