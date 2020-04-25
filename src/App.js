@@ -1,11 +1,10 @@
 import React from 'react';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-        <span>Krama Store</span>
-    </div>
+    <React.Fragment>
+
+    </React.Fragment>
   );
 }
 
