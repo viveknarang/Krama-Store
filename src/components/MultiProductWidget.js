@@ -70,28 +70,28 @@ class MultiProductWidget extends React.Component {
 
 
                         <ProductCard src="https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-                                alt="Product Name" currency="$" price="1234.5"/>
+                                name="Product Name" currency="$" price="1234.5"/>
                   
                         <ProductCard src="https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-                                alt="Product Name" currency="$" price="1234.5"/>
+                                name="Product Name" currency="$" price="1234.5"/>
 
                         <ProductCard src="https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-                                alt="Product Name" currency="$" price="1234.5"/>
+                                name="Product Name" currency="$" price="1234.5"/>
 
                         <ProductCard src="https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-                                alt="Product Name" currency="$" price="1234.5"/>
+                                name="Product Name" currency="$" price="1234.5"/>
 
                         <ProductCard src="https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-                                alt="Product Name" currency="$" price="1234.5"/>
+                                name="Product Name" currency="$" price="1234.5"/>
                   
                         <ProductCard src="https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-                                alt="Product Name" currency="$" price="1234.5"/>
+                                name="Product Name" currency="$" price="1234.5"/>
 
                         <ProductCard src="https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-                                alt="Product Name" currency="$" price="1234.5"/>
+                                name="Product Name" currency="$" price="1234.5"/>
 
                         <ProductCard src="https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-                                alt="Product Name" currency="$" price="1234.5"/>
+                                name="Product Name" currency="$" price="1234.5"/>
 
 
                   </Carousel>
