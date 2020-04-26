@@ -17,10 +17,22 @@
 }
 
 .product-image-container {
-    width: 100%;
-    height: 100;
+    width: 90%;
+    height: 90;
 }
 
 .btn-block {
     width: 100%;
+}
+
+.done-tag {
+    color: green;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.button-padding {
+    margin: 10px;
 }

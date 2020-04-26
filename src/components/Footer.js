@@ -20,8 +20,6 @@ class Footer extends React.Component {
                       <ul>
                         <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
                         <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
                       </ul>
                     </div>
                   </div>
