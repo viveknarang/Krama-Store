@@ -20,11 +20,8 @@ class Body extends React.Component {
     return (
           <React.Fragment>
             <div className="body-x z-depth-3">
-
-                <Search/>
-
+            <Search/>
                 <Router>
-
                   <Switch>
                     <Route path={`/product/:productID`}>
                       <Product/>
@@ -36,7 +33,6 @@ class Body extends React.Component {
                       <Home/>
                     </Route>
                   </Switch>
-
                 </Router>
 
             </div>

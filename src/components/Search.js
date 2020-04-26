@@ -10,11 +10,8 @@ class Search extends React.Component {
     return (
       <React.Fragment>
 
-                <div class="row purple darken-1">
-                  <div class="input-field col s12 m12 l12">
-                    <i class="material-icons prefix search-text">search</i>
-                    <textarea id="q" class="materialize-textarea search-text" placeholder="Find A Product"></textarea>
-                  </div>
+                <div class="container search-box">
+                    <textarea id="q" class="materialize-textarea" placeholder="Search A Product ..."></textarea>
                 </div>
 
       </React.Fragment>
