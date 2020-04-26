@@ -14,7 +14,7 @@ class Home extends React.Component {
       <React.Fragment>
               <div class="row">
                     <div class="col s12 m12 l12  space-top">
-                          <ProductWidget/>
+                          <ProductWidget auto={true}/>
                     </div>
               </div>
               <div class="row">

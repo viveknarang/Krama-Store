@@ -16,7 +16,7 @@ class Product extends React.Component {
           <div class="row">
             <div class="col l5 m12 s12">
 
-                    <ProductWidget/>
+                    <ProductWidget auto={false}/>
 
             </div>
             <div class="col l7 m12 s12">

@@ -16,6 +16,7 @@ class ProductWidget extends React.Component {
 
           <Carousel
             additionalTransfrom={0}
+            autoPlay={this.props.auto?true:false}
             arrows
             autoPlaySpeed={3000}
             centerMode={false}
