@@ -9,6 +9,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Search from './Search';
 
 class Body extends React.Component {
 
@@ -19,6 +20,8 @@ class Body extends React.Component {
     return (
           <React.Fragment>
             <div className="body-x z-depth-3">
+
+                <Search/>
 
                 <Router>
 
