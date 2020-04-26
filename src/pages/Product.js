@@ -1,7 +1,7 @@
 import React from 'react';
 import './Product.css';
-import ProductWidget from './ProductWidget';
-import MultiProductWidget from './MultiProductWidget';
+import ProductWidget from '../components/ProductWidget';
+import MultiProductWidget from '../components/MultiProductWidget';
 
 class Product extends React.Component {
 

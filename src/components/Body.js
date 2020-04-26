@@ -1,5 +1,6 @@
 import React from 'react';
-import Product from './Product'
+import Product from '../pages/Product';
+import Category from '../pages/Category';
 import './Body.css';
 
 import {
@@ -23,6 +24,9 @@ class Body extends React.Component {
                   <Switch>
                     <Route path={`/product/:productID`}>
                       <Product/>
+                    </Route>
+                    <Route path={`/category/:categoryID`}>
+                      <Category/>
                     </Route>
                   </Switch>
 
