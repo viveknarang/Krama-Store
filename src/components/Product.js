@@ -1,5 +1,7 @@
 import React from 'react';
-import './Product.css'
+import './Product.css';
+import ProductWidget from './ProductWidget';
+import MultiProductWidget from './MultiProductWidget';
 
 class Product extends React.Component {
 
@@ -14,7 +16,7 @@ class Product extends React.Component {
           <div class="row">
             <div class="col l5 m12 s12">
 
-                    <img class="product-image-container" src="http://placehold.jp/350x350.png" alt="Product Name"/>
+                    <ProductWidget/>
 
             </div>
             <div class="col l7 m12 s12">
@@ -74,21 +76,20 @@ class Product extends React.Component {
                     </div>
 
                     <div class="row">
-                      <div class="col s12 m6 l6">
-                            <a class=" button-padding waves-effect waves-light btn-large btn-block purple darken-1" href="/product/123"><i class="material-icons right">playlist_add</i>Add To Wish List</a>
+                      <div class="col s12 m12 l6">
+                            <a class=" button-padding waves-effect waves-light btn-large purple darken-1 btn-block" href="/product/123"><i class="material-icons right">playlist_add</i>Add To Wish List</a>
                       </div>
-                      <div class="col s12 m6 l6">
-                            <a class=" button-padding waves-effect waves-light btn-large btn-block purple darken-1" href="/product/123"><i class="material-icons right">add_shopping_cart</i>Add To Cart</a>
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="col s12 m12 l12">
-                            <br/><br/>
+                      <div class="col s12 m12 l6">
+                            <a class=" button-padding waves-effect waves-light btn-large purple darken-1 btn-block" href="/product/123"><i class="material-icons right">add_shopping_cart</i>Add To Cart</a>
                       </div>
                     </div>
               
             </div>
+          </div>
+          <div class="row">
+              <div class="col l12 m12 s12">
+                                <MultiProductWidget widgetName="Similar Items"/>
+              </div>            
           </div>
           <br/>
         </div>
