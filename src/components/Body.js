@@ -10,6 +10,7 @@ import {
   Route
 } from "react-router-dom";
 import Search from './Search';
+import Settings from '../pages/Settings';
 
 class Body extends React.Component {
 
@@ -21,6 +22,7 @@ class Body extends React.Component {
           <React.Fragment>
             <div className="body-x z-depth-3">
             <Search/>
+            
                 <Router>
                   <Switch>
                     <Route path={`/product/:productID`}>
@@ -31,6 +33,9 @@ class Body extends React.Component {
                     </Route>
                     <Route path={`/home`}>
                       <Home/>
+                    </Route>
+                    <Route path={`/settings`}>
+                      <Settings/>
                     </Route>
                   </Switch>
                 </Router>
