@@ -13,7 +13,7 @@ class Header extends React.Component {
 
               <div className="header z-depth-3">
                 <div class="company-logo">
-                  <Image src="http://placehold.jp/350x100.png" width="350px" height="100px" alt="Company Name"/>
+                  <Image src="http://placehold.jp/350x100.png" width="350px" height="100px" alt="Company Name" notBlur={true}/>
                 </div>
               </div>
 

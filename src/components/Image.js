@@ -18,7 +18,7 @@ class Image extends React.Component {
                   height={this.props.height}
                   src={this.props.src} 
                   width={this.props.width} 
-                  effect="blur"/> 
+                  effect={this.props.notBlur ? "" : "blur"}/> 
 
       </React.Fragment>
     );
