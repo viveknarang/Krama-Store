@@ -4,7 +4,6 @@ import './Product.css'
 class Product extends React.Component {
 
   componentDidMount() {
-
   }
 
   render() {
@@ -28,29 +27,49 @@ class Product extends React.Component {
                     </div>
 
                     <div class="row">
-                      <div class="col s12 m12 l12">
-                            
-                      </div>
-                    </div>
-
-                    <div class="row">
                       <div class="col s12">
                         <p class="text-justify">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                         when an unknown printer took a galley of type and scrambled it to make a type 
-                        specimen book. It has survived not only five centuries, but also the leap into 
-                        electronic typesetting, remaining essentially unchanged. It was popularised in 
-                        the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                        and more recently with desktop publishing software like Aldus PageMaker including 
-                        versions of Lorem Ipsum.
+                        specimen book.
                         </p>
                       </div>
                     </div>
 
                     <div class="row">
                       <div class="col s12 m12 l12">
-                            <br/>
+                          <ul class="collapsible">
+                            <li>
+                              <div class="collapsible-header"><i class="material-icons">featured_play_list</i>Product Details</div>
+                              <div class="collapsible-body">
+
+                                      <table class="striped">
+                                        <thead>
+                                          <tr>
+                                              <th>Name</th>
+                                              <th>Item Name</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>Alvin</td>
+                                            <td>Eclair</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Alan</td>
+                                            <td>Jellybean</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Jonathan</td>
+                                            <td>Lollipop</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+
+                              </div>
+                            </li>
+                          </ul>
                       </div>
                     </div>
 
