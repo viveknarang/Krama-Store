@@ -20,7 +20,7 @@ class Checkout extends React.Component {
               <div class="col s12 m12 l6">
 
                     <ul class="collapsible">
-                      <li>
+                      <li class="active">
                         <div class="collapsible-header"><i class="material-icons">credit_card</i>Payment Option</div>
                         <div class="collapsible-body">
 
@@ -141,8 +141,8 @@ class Checkout extends React.Component {
                             <div class="row">
                               <div class="input-field col s6">
                                 <i class="material-icons prefix">date_range</i>
-                                <input id="expiry" type="text" class="datepicker"/>
-                                <label for="expiry">Expiry Date</label>
+                                <input id="expiry" type="text" class="text"/>
+                                <label for="expiry">MM/YY</label>
                                 <span class="helper-text" data-error="wrong" data-success="right">Card expiry date in MM/YY format</span>
                               </div>
                               <div class="input-field col s6">
@@ -154,8 +154,6 @@ class Checkout extends React.Component {
                             </div>
                           </form>
                         </div>
-
-                        <div><i class="material-icons left small">lock</i>Your payment information is securely stored with us.</div>
 
                 </div>
               </div>
