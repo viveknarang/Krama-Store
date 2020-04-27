@@ -16,10 +16,10 @@ class Category extends React.Component {
                   <div class="col s12 m12 l3 space-top">
 
                         <div class="collection">
-                          <a href="#!" class="collection-item">Alvin</a>
-                          <a href="#!" class="collection-item active  purple darken-1">Alvin</a>
-                          <a href="#!" class="collection-item">Alvin</a>
-                          <a href="#!" class="collection-item">Alvin</a>
+                          <a href="#!" class="collection-item">Sub Category</a>
+                          <a href="#!" class="collection-item active  purple darken-1">Sub Category</a>
+                          <a href="#!" class="collection-item">Sub Category</a>
+                          <a href="#!" class="collection-item">Sub Category</a>
                         </div>
 
                   </div>

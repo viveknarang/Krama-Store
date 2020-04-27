@@ -10,9 +10,18 @@ class Settings extends React.Component {
     return (
       <React.Fragment>
 
+
             <div class="row">
 
-                  <div class="col s12 m12 l3 space-top">
+                  <div class="col s12 m12 l12 align-left title-spacing-left">
+                          <h5 class="title-spacing-left">Your Settings</h5>
+                  </div>
+
+            </div>
+
+            <div class="row">
+
+                  <div class="col s12 m12 l3">
 
                         <div class="collection">
                           <a href="#!" class="collection-item">Payment Methods</a>

@@ -26,7 +26,7 @@ class ProductCard extends React.Component {
                           <div class="card-content align-left">
                             <p>{this.props.name}</p>
                           </div>
-                          <div class="card-action">
+                          <div class="card-action align-right">
                                   <div class="float-left"><b>{this.props.currency}{this.props.price}</b></div>
                                   <a href="/product/1234">View</a>
                           </div>

@@ -9,8 +9,11 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+
 import Search from './Search';
 import Settings from '../pages/Settings';
+import ShoppingCart from '../pages/ShoppingCart';
+import MyOrders from '../pages/MyOrders';
 
 class Body extends React.Component {
 
@@ -36,6 +39,12 @@ class Body extends React.Component {
                     </Route>
                     <Route path={`/settings`}>
                       <Settings/>
+                    </Route>
+                    <Route path={`/shopping-cart`}>
+                      <ShoppingCart/>
+                    </Route>
+                    <Route path={`/my-orders`}>
+                      <MyOrders/>
                     </Route>
                   </Switch>
                 </Router>

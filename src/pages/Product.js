@@ -21,11 +21,11 @@ class Product extends React.Component {
             </div>
             <div class="col l7 m12 s12">
 
-                    <div class="row"><div class="col s12 align-left"><h4>Product Name</h4></div></div>
+                    <div class="row"><div class="col s12 align-left"><h5>Product Name</h5></div></div>
 
                     <div class="row">
                       <div class="col s12 m12 l6 align-left"><span class="done-tag"><i class="material-icons">done</i>In Stock!</span></div>
-                      <div class="col s12 m12 l6 align-right"><h4>$ 1234.5</h4></div>
+                      <div class="col s12 m12 l6 align-right"><h5>$ 1234.5</h5></div>
                     </div>
 
                     <div class="row">
@@ -37,6 +37,41 @@ class Product extends React.Component {
                         specimen book.
                         </p>
                       </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col s12 m6 l3">
+                              <select>
+                                <option value="" disabled selected>Property</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                              </select>
+                        </div>
+                        <div class="col s12 m6 l3">
+                              <select>
+                                <option value="" disabled selected>Property</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                              </select>
+                        </div>
+                        <div class="col s12 m6 l3">
+                              <select>
+                                <option value="" disabled selected>Property</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                              </select>
+                        </div>
+                        <div class="col s12 m6 l3">
+                              <select>
+                                <option value="" disabled selected>Property</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                              </select>
+                        </div>
                     </div>
 
                     <div class="row">
