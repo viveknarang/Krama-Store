@@ -64,31 +64,32 @@ class Checkout extends React.Component {
                       <table class="striped z-depth-3">
                         <tbody>
                           <tr>
-                            <td>Shipping Address</td>
+                            <td class="item-spacing-left">Shipping Address</td>
                             <td>113 Edgar Ave<br/>
                             Richmond Hill<br/>
                             ON L4C 6K3<br/>
                             Canada</td>
                           </tr>
                           <tr>
-                            <td>Payment Method</td>
-                            <td>XXXX-XXXX-XXXX-1234</td>
+                            <td class="item-spacing-left">Payment Method</td>
+                            <td>XXXX-XXXX-XXXX-1234<br/>
+                                Visa</td>
                           </tr>
                           <tr>
-                            <td>Amount</td>
+                            <td class="item-spacing-left">Amount</td>
                             <td>$1234.5</td>
                           </tr>
                           <tr>
-                            <td>Tax</td>
+                            <td class="item-spacing-left">Tax</td>
                             <td>$1234.5</td>
                           </tr>
                           <tr>
-                            <td>Shipping</td>
+                            <td class="item-spacing-left">Shipping</td>
                             <td>$1234.5</td>
                           </tr>
                           <tr>
-                            <td><b>Total</b></td>
-                            <td><b>$1234.5</b></td>
+                            <td class="item-spacing-left"><h5><b>Total</b></h5></td>
+                            <td><h5><b>$1234.5</b></h5></td>
                           </tr>
                         </tbody>
                       </table>
