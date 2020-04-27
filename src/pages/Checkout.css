@@ -6,6 +6,10 @@
     text-align: left;
 }
 
+.float-left {
+    float: left;
+}
+
 .title-spacing-left {
     margin-left: 25px;
 }

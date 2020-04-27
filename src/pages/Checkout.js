@@ -34,7 +34,7 @@ class Checkout extends React.Component {
                                 <label>Payment Option</label>
                               </div>                          
 
-                              <a class="waves-effect waves-light btn-large purple darken-1" href="/checkout">
+                              <a class="waves-effect waves-light btn-large purple darken-1 modal-trigger" href="#PaymentModal">
                                         <i class="material-icons left">add_box</i>Add A Payment Option</a>
 
                         </div>
@@ -48,10 +48,10 @@ class Checkout extends React.Component {
                                   <option value="" disabled selected>Choose your option</option>
                                   <option value="1">113 Edgar Ave, Canada</option>
                                 </select>
-                                <label>Payment Option</label>
+                                <label>Shipping Address</label>
                               </div>                          
 
-                              <a class="waves-effect waves-light btn-large purple darken-1" href="/checkout">
+                              <a class="waves-effect waves-light btn-large purple darken-1 modal-trigger" href="#AddressModal">
                                         <i class="material-icons left">add_box</i>Add A Shipping Address</a>
 
                         </div>
@@ -109,6 +109,121 @@ class Checkout extends React.Component {
             </div>
             
             <br/><br/>
+
+            <div id="PaymentModal" class="modal">
+              <div class="modal-content">
+                <h5 class="align-left">New Payment Method</h5>
+                <div class="align-left">
+
+                        <div class="row">
+                          <form class="col s12">
+                            <div class="row">
+                              <div class="input-field col s6">
+                                <i class="material-icons prefix">person</i>
+                                <input id="card_first_name" type="text" class="validate"/>
+                                <label for="card_first_name">First Name</label>
+                                <span class="helper-text" data-error="wrong" data-success="right">First name as mentioned on the card</span>
+                              </div>
+                              <div class="input-field col s6">
+                                <input id="card_last_name" type="text" class="validate"/>
+                                <label for="card_last_name">Last Name</label>
+                                <span class="helper-text" data-error="wrong" data-success="right">Last name as mentioned on the card</span>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="input-field col s12">
+                                <i class="material-icons prefix">credit_card</i>
+                                <input id="card_number" type="text" class="validate"/>
+                                <label for="card_number">Card Number</label>
+                                <span class="helper-text" data-error="wrong" data-success="right">16 digit card number</span>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="input-field col s6">
+                                <i class="material-icons prefix">date_range</i>
+                                <input id="expiry" type="text" class="datepicker"/>
+                                <label for="expiry">Expiry Date</label>
+                                <span class="helper-text" data-error="wrong" data-success="right">Card expiry date in MM/YY format</span>
+                              </div>
+                              <div class="input-field col s6">
+                                <i class="material-icons prefix">security</i>
+                                <input id="cvv" type="password" class="validate"/>
+                                <label for="cvv">CVV</label>
+                                <span class="helper-text" data-error="wrong" data-success="right">You can find this code on the back of your card</span>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+
+                        <div><i class="material-icons left small">lock</i>Your payment information is securely stored with us.</div>
+
+                </div>
+              </div>
+              <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-green btn purple darken-1">Add</a>&nbsp;
+                        <a href="#!" class="modal-close waves-effect waves-green btn purple darken-1">Cancel</a>
+              </div>
+            </div>
+
+
+            <div id="AddressModal" class="modal">
+              <div class="modal-content">
+                <h5 class="align-left">New Address</h5>
+                <div class="align-left">
+                  
+
+                        <div class="row">
+                          <form class="col s12">
+                            <div class="row">
+                              <div class="input-field col s6">
+                                <input id="first_name" type="text" class="validate"/>
+                                <label for="first_name">First Name</label>
+                              </div>
+                              <div class="input-field col s6">
+                                <input id="last_name" type="text" class="validate"/>
+                                <label for="last_name">Last Name</label>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="input-field col s12">
+                                <input id="address_line1" type="text" class="validate"/>
+                                <label for="address_line1">Address Line 1</label>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="input-field col s12">
+                                <input id="address_line2" type="text" class="validate"/>
+                                <label for="address_line2">Address Line 2 (optional)</label>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="input-field col s6">
+                                <input id="city" type="text" class="validate"/>
+                                <label for="city">City</label>
+                              </div>
+                              <div class="input-field col s6">
+                                <input id="state" type="text" class="validate"/>
+                                <label for="state">State</label>
+                              </div>
+                              <div class="input-field col s6">
+                                <input id="country" type="text" class="validate"/>
+                                <label for="country">Country</label>
+                              </div>
+                              <div class="input-field col s6">
+                                <input id="pincode" type="text" class="validate"/>
+                                <label for="pincode">Pin Code</label>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+
+                </div>
+              </div>
+              <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn purple darken-1">Add</a>&nbsp;
+                    <a href="#!" class="modal-close waves-effect waves-green btn purple darken-1">Cancel</a>
+              </div>
+            </div>
 
       </React.Fragment>
     );
