@@ -14,6 +14,7 @@ import Search from './Search';
 import Settings from '../pages/Settings';
 import ShoppingCart from '../pages/ShoppingCart';
 import MyOrders from '../pages/MyOrders';
+import Checkout from '../pages/Checkout';
 
 class Body extends React.Component {
 
@@ -45,6 +46,9 @@ class Body extends React.Component {
                     </Route>
                     <Route path={`/my-orders`}>
                       <MyOrders/>
+                    </Route>
+                    <Route path={`/checkout`}>
+                      <Checkout/>
                     </Route>
                   </Switch>
                 </Router>

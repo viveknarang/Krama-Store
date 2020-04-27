@@ -45,11 +45,12 @@ class ShoppingCart extends React.Component {
               </div>
             </div>
 
-            <div class="row">
+            <div class="row product-spacing-left product-spacing-right">
                   <div class="col s12 m6 l6 align-left">
+                                <h5>Total: $12345.6</h5>
                   </div>
                   <div class="col s12 m6 l6 align-right">
-                                <a class="waves-effect waves-light btn-large purple darken-1 title-spacing-right" href="/shopping-cart/empty">
+                                <a class="waves-effect waves-light btn-large purple darken-1 title-spacing-right" href="/checkout">
                                   <i class="material-icons left">exit_to_app</i>Checkout</a>
                   </div>            
             </div>
